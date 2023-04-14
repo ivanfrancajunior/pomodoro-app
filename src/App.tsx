@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Logo />
-      <PomodoroTimer defaultPomodoroTimer={1500} />
+      <PomodoroTimer defaultPomodoroTimer={1800} />
 
 
 
