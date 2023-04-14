@@ -73,3 +73,49 @@ body{
   font-size: 18px;
   color: #f4eddb;
 }
+
+@media (max-width: 768px) {
+
+  body{
+    font-family:'Montserrat', sans-serif;;
+    background-color: #4C9A91;
+    font-size: 13px;
+    transition: backgound-color 300ms ease-in-out;
+  }
+  .pomodoro {
+    margin: 0 auto ;
+    height: 436px;
+    width: 375px;
+    border-radius: 10px;
+  }
+  .pomodoro button{
+    background: none;
+    text-align: center;
+    border:none;
+    color: #f4eddb;
+    height: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .pomodoro .timer {
+    color: #f4eddb;
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .pomodoro .details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 79px;
+    align-items: start;
+    justify-content: center;
+
+  }
+  .pomodoro .details p{
+    margin: 3px;
+    font-size: 15px;
+    color: #f4eddb;
+  }
+}

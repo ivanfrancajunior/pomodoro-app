@@ -10,3 +10,19 @@
 .logo_div img{
   height: 39px;
 }
+
+@media (max-width: 768px){
+
+  .logo_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 200px;
+    margin-bottom: 68px;
+  }
+
+  .logo_div img{
+    height: 31px;
+  }
+}
