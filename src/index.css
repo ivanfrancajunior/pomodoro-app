@@ -9,26 +9,27 @@
 
 body{
   font-family:'Montserrat', sans-serif;;
-  background-color: #41e1ba;
+  background-color: #4C9A91;;
   transition: backgound-color 300ms ease-in-out;
 }
 
 .App {
   max-width: 1280px;
   margin: 0 auto;
-  border: 1px solid white;
+
 }
 
 .working{
   background:#E7626C ;
 }
 
+
 .hidden {
   display: none;
 }
 
 .pomodoro {
-  border: 1px solid #f4eddb;
+ 
   margin: 0 auto ;
   height: 490px;
   width: 594px;
