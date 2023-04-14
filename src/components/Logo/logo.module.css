@@ -5,7 +5,8 @@
   justify-items: center;
   margin-top: 160px;
   margin-bottom: 68px;
-  border: 1px solid orange;
 }
 
-
+.logo_div img{
+  height: 39px;
+}
