@@ -29,7 +29,7 @@ body{
 }
 
 .pomodoro {
- 
+
   margin: 0 auto ;
   height: 490px;
   width: 594px;
@@ -60,4 +60,16 @@ body{
   cursor: pointer;
   font-size: 18px;
 }
+.pomodoro .details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 79px;
+  align-items: start;
+  justify-content: center;
 
+}
+.pomodoro .details p{
+  margin: 4px;
+  font-size: 18px;
+  color: #f4eddb;
+}
