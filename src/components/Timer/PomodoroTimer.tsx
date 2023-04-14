@@ -16,22 +16,27 @@ const PomodoroTimer = (props: Props): JSX.Element => {
   const [working, setWorking] = React.useState(false)
   const [resting, setResting] = React.useState(false)
 
+  const audioStartWorking = new Audio('/sounds/start.mp3');
+  const audioStopWorking = new Audio('/sounds/end.mp3');
+
   useEffect(() => {
     if (working) document.body.classList.add('working')
     if (resting) document.body.classList.remove('working')
 
-  }, [working])
+  }, [working, resting])
 
   const configureWorking = () => {
     setTimeCount(true)
     setWorking(true)
     setResting(false)
     setMainTime(props.PomodoroTimer)
+    audioStartWorking.play()
   }
   const configureRest = (long:boolean) => {
     setTimeCount(true)
     setWorking(false)
     setResting(true)
+    audioStopWorking.play()
 
     if (long) {
       setMainTime(props.LongRestTimer)
