@@ -1,5 +1,3 @@
-import React from 'react'
-
 interface Props {
   text: string;
   onClick?: () => void;
@@ -7,6 +5,7 @@ interface Props {
 }
 
 const Button = (props: Props) => {
+
   return (
 
 

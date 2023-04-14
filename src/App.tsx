@@ -6,7 +6,12 @@ function App() {
   return (
     <div className="App">
       <Logo />
-      <PomodoroTimer defaultPomodoroTimer={1800} />
+      <PomodoroTimer
+        PomodoroTimer={1800}
+        ShortRestTimer={300}
+        LongRestTimer={900}
+        Cycles={4}
+      />
 
 
 

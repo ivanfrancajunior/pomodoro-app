@@ -2,10 +2,61 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: white;
-  background-color: black;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  outline: none;
 }
 
+body{
+  font-family:'Montserrat', sans-serif;;
+  background-color: #41e1ba;
+  transition: backgound-color 300ms ease-in-out;
+}
+
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 1px solid white;
+}
+
+.working{
+  background:#E7626C ;
+}
+
+.hidden {
+  display: none;
+}
+
+.pomodoro {
+  border: 1px solid #f4eddb;
+  margin: 0 auto ;
+  height: 490px;
+  width: 594px;
+  border-radius: 10px;
+}
+
+.pomodoro .timer {
+  color: #f4eddb;
+  font-size: 200px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.pomodoro button{
+  background: none;
+  text-align: center;
+  border:none;
+  color: #f4eddb;
+  height: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 18px;
+}
 
